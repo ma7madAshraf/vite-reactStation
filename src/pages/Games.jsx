@@ -34,7 +34,7 @@ const Games = () => {
           className="w-full rounded-xl lg:w-[500px] lg:h-[275px]  "
         />
         <div className="">
-          <h2 className="w-fit text-3xl border-b-2 border-secondary mb-5 tracking-tighter pb-2">
+          <h2 className="w-fit text-3xl border-b-2 border-secondary mb-5 tracking-tighter pb-2 capitalize">
             {" "}
             memory blocks
           </h2>
@@ -54,7 +54,7 @@ const Games = () => {
           className="w-full rounded-xl lg:w-[500px] lg:h-[275px]  "
         />
         <div className="">
-          <h2 className="w-fit text-3xl border-b-2 border-secondary mb-5 tracking-tighter pb-2">
+          <h2 className="w-fit text-3xl border-b-2 border-secondary mb-5 tracking-tighter pb-2 capitalize">
             typing game
           </h2>
           <p className="leading-7 font-medium text-base">

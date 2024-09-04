@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const EmptyResult = ({ game }) => {
   return (
     <div
-      className="flex flex-col justify-center items-center min-h-16 sm:min-h-64
+      className="flex flex-col justify-center items-center min-h-16 
   "
     >
       {" "}

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import data from "../data/typeData";
-import {  useAppContext } from "../reducers/context";
+import { useAppContext } from "../reducers/context";
 import useSound from "use-sound";
 import trueSound from "../assets/sounds/notification-for-game-scenes-132473.mp3";
 import falseSound from "../assets/sounds/ouch-116112.mp3";
@@ -110,7 +110,6 @@ const TypeSpeed = () => {
       setRemainingWords([...val]);
       return val;
     });
-
   }, [difficulty, isFinished]);
 
   return (
@@ -191,7 +190,10 @@ const TypeSpeed = () => {
                   Score: <span className="text-xl">{score}</span>
                 </p>
                 <div className="card-actions justify-end">
-                  <button className="btn duration-0 " onClick={playAgain}>
+                  <button
+                    className="btn mt-6  btn-neutral font-semibold text-sm sm:text-lg md:text-2xl"
+                    onClick={playAgain}
+                  >
                     Play Again
                   </button>
                 </div>

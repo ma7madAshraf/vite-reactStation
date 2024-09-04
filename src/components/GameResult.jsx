@@ -6,7 +6,10 @@ import { MdAutoFixHigh } from "react-icons/md";
 const GameResult = ({ stats }) => {
   const { played, wins, loses, score } = stats;
   return (
-    <>
+    <div
+      className=" min-h-16 sm:min-h-32 
+    "
+    >
       <h4 className="flex items-center text-xl gap-x-2 capitalize  sm:text-2xl sm:mb-1">
         <FaGamepad className="text-secondary" />
         played :<span className="text-secondary"> {played}</span>
@@ -25,7 +28,7 @@ const GameResult = ({ stats }) => {
           high score :<span className="text-secondary"> {score}</span>
         </h4>
       )}
-    </>
+    </div>
   );
 };
 

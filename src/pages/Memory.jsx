@@ -197,7 +197,7 @@ const Memory = () => {
             {isFailed && `game over`}
           </h2>
           <button
-            className="btn mt-6 md:mt-0 md:absolute md:-bottom-5 md:left-1/2 md:-translate-x-1/2 btn-neutral font-semibold text-sm sm:text-lg md:text-2xl"
+            className="btn mt-6  btn-neutral font-semibold text-sm sm:text-lg md:text-2xl"
             onClick={playAgain}
           >
             play again
