@@ -29,7 +29,7 @@ const Results = () => {
     );
   }
   return (
-    <section className="mt-15 h-screen py-5 px-3">
+    <section className="mt-15 py-5 ">
       <h2 className="text-4xl sm:text-5xl border-b-2 pb-4 mx-auto mb-8 w-fit  text-center uppercase">
         statistics
       </h2>

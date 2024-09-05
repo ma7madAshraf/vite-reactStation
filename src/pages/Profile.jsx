@@ -24,7 +24,9 @@ const Profile = () => {
               {user?.updated_at?.substring(0, 10) || ``}
             </span>
           </p>{" "}
-          <Results />
+          <section className=" mt-14 mb-6">
+            <Results />
+          </section>
         </div>
       </div>
     </section>
